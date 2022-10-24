@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://likedd.oss-cn-chengdu.aliyuncs.com/admin/publicImg/webIcon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>relinex</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+    <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jsencrypt/3.2.1/jsencrypt.min.js"></script>
+    <script>
+        localStorage.setItem('ip', returnCitySN['cip'])
+        localStorage.setItem('cityname', returnCitySN['cname'])
+    </script>
+  </body>
+</html>
